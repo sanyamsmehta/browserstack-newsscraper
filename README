@@ -1,0 +1,21 @@
+- I created this project to test my scraping script on Local and BrowserStack Automate
+
+
+
+Todo:
+- Clone the repository
+- Create a .env file in the root directory (refer .env.example and copy)
+- Run `pip install -r requirements.txt` to install all requirements
+- Run local_scraper.py locally. 
+- Run run_parallel.py  to test 5 parallel devices on BrowserStack Automate 
+
+
+
+
+Expectations: 
+- Launches El Pais website
+- Heading of 5 articles under 'Opinion' Printed in Spanish
+- Their images downloaded in article_images folder
+- English Translation printed. 
+- Repeating words in all headers printed. 
+- 5 successful parallel tests in a Build successful on BrowserStack Automate 
